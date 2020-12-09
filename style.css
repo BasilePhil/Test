@@ -1,5 +1,10 @@
 /* début de la page css de Test */
 
+body
+{
+    background: url("images/image4.png") scroll no-repeat top right, url("images/image3.png") fixed;/*ou scroll*/
+} 
+
 *
 {
 	/*font-family: 'Montserrat', Arial, Arial Black, Comic Sans MS, Courier New, Georgia,Impact ;*/
@@ -177,7 +182,175 @@ a[alt*="duckduckgo"]
 	text-align: left;
 }
 
+#blabla10
+{
+	color: #FA3;
+	background: yellow;
+	opacity: 0.5;
+
+}
+
 #blabla11
 {
 	text-align: justify;
+	color: #FFAA33;
+	background-color: yellow;
+	text-shadow: 2px 2px 4px black;
+}
+
+.imagef
+{
+	float: left; /*float: rigth;*/
+}
+
+.tdessous
+{
+	clear: right;/*ou both*/
+}
+
+.tdessous2
+{
+	clear: left; /*ou both*/
+}
+
+h6
+{
+	color: rgb(140,26,204);
+}
+
+section
+{
+	display: flex;
+	flex-wrap: wrap;
+	background: #FFF;
+}
+
+section p
+{
+	margin: 2%;
+	padding: 2%;
+	border: blue 4px;
+}
+
+section .b1
+{
+	border: solid;
+}
+
+section .b2
+{
+	border: dotted;
+}
+
+section .b3
+{
+	border: dashed;
+}
+
+section .b4
+{
+	border: double;
+}
+
+section .b5
+{
+	border: groove;
+}
+
+section .b6
+{
+	border: ridge;
+}
+
+section .b7
+{
+	border: inset;
+}
+
+section .b8
+{
+	border: outset;
+}
+
+div
+{
+	display: flex;
+	flex-wrap: wrap;
+	background: white;
+	margin: 5%;
+}
+
+div p
+{
+	margin: 2%;
+	padding: 2%;
+}
+
+div .b1
+{
+	border-top: solid blue 4px;
+}
+
+div .b2
+{
+	border-bottom: solid blue 4px;
+}
+
+div .b3
+{
+	border-right: solid blue 4px;
+}
+
+div .b4
+{
+	border-left: solid blue 4px;
+}
+
+.ar1
+{
+	background: green;
+	width: 50%;
+	padding: 10px;
+	border-radius: 10px;	
+}
+
+.ar2
+{
+	background: green;
+	width: 50%;
+	padding: 10px;
+	border-radius: 100px;		
+}
+
+.ar3
+{
+	background: green;
+	width: 50%;
+	padding: 10px;
+	border-radius: 20px / 10px;
+}
+
+.om1
+{
+	background: green;
+	width: 50%;
+	padding: 10px;
+	border-radius: 100px;		
+    box-shadow: 6px 6px 0px black;	
+}
+
+.om2
+{
+	background: green;
+	width: 50%;
+	padding: 10px;
+    box-shadow: 6px 6px 6px black;		
+}
+
+.om3
+{
+	background: green;
+	width: 50%;
+	padding: 10px;	
+    box-shadow: 6px 6px 6px black inset;	
 }
