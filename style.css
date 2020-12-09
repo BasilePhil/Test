@@ -1,0 +1,183 @@
+/* début de la page css de Test */
+
+*
+{
+	/*font-family: 'Montserrat', Arial, Arial Black, Comic Sans MS, Courier New, Georgia,Impact ;*/
+}
+
+p
+{
+	color: blue;
+}
+
+h2, h3
+{
+	color: red;
+}
+
+.listepoint
+{
+	color: #7CFC00;
+}
+
+#listenum
+{
+	color: #BA55D3;
+}
+
+.testspan
+{
+	color: #98FB98;
+}
+
+.testdiv
+{	
+	color: #FFFF00;
+}
+
+figure figcaption
+{
+	color: #66CDAA;
+}
+
+h1 + h2 + h3 + h4
+{
+	color: #FF00FF;
+}
+
+a[title]
+{
+	color: #FFFACD;
+}
+
+a[alt="lien de duckduckgo"]
+{
+	color: #808080;
+}
+
+a[alt*="duckduckgo"]
+{
+	font-size: 1.2em;
+}
+
+.a1
+{
+	font-size: 1cm;
+}
+
+.a2
+{
+	font-size: 2cm;
+} 
+
+.a3
+{
+	font-size: 20px;
+}
+
+.a4
+{
+	font-size: 40px;
+}
+
+.a5
+{
+	font-size: 1em;
+}
+
+.a6
+{
+	font-size: 2em;
+}
+
+.a7
+{
+	font-size: small;
+}
+
+.a8
+{
+	font-size: large;
+}
+
+@fount-face
+{
+	font-family: 'policetest';
+	src: url('policetest.otf') format('otf');
+}
+
+#blabla1
+{
+	font-family: 'Montserrat', Arial, Arial Black, Comic Sans MS, Courier New, Georgia,Impact ;
+	font-size: 1.4em;
+	text-align: left;
+}
+
+#blabla2
+{
+	font-family: 'policetest', Comic Sans Ms;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#blabla3
+
+{
+	font-style: italic;
+	font-size: 1.4em;
+	text-align: right;
+}
+
+#blabla4
+{
+	font-style: oblique;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#blabla5
+{
+	font-style: normal;
+	font-size: 1.4em;
+	text-decoration: line-through;
+	text-align: left;
+}
+
+#blabla6
+
+{
+	font-weight: bold;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+#blabla7
+{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.4em;
+	text-decoration: underline;
+	text-align: right;
+}
+
+#blabla8
+{
+	font-style: oblique;
+	font-weight: bold;
+	font-size: 1.4em;
+	text-decoration: overline;
+	text-align: center;
+}
+
+#blabla9
+{
+	font-style: normal;
+	font-size: 1.4em;
+	text-decoration: blink;
+	text-align: left;
+}
+
+#blabla11
+{
+	text-align: justify;
+}
